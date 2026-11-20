@@ -3,28 +3,28 @@
 class Keelbox < Formula
   desc "Set up an Ubuntu machine as a box for AI coding agents"
   homepage "https://keelbox.dev"
-  version "0.2.0-rc.10"
+  version "0.2.0-rc.11"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.10/keelbox-darwin-arm64"
-      sha256 "a5b37be33e47d97e70d03a899aad749141efba40d3387e662d38463b28716570"
+      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.11/keelbox-darwin-arm64"
+      sha256 "20109a48d2e832de73b775131cf1b5a749ac94a81ad1a62856f403ac30fdafab"
     end
     on_intel do
-      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.10/keelbox-darwin-amd64"
-      sha256 "93753e6395ddfee23fb3d04b0eab54f5b654fbb3701676ec61f14a02adb1a198"
+      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.11/keelbox-darwin-amd64"
+      sha256 "719ebf671f1fd53102051f8d6b54938dfcf87c336e21e413a062e971d4120db9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.10/keelbox-linux-arm64"
-      sha256 "997b14ce91f18ba22fe8be58fa482dfaa40db82479fb64fe08fa4b85cee6a7fd"
+      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.11/keelbox-linux-arm64"
+      sha256 "d6930e9e5ab39656bd14b524a9a259776ff2d4d8b4338ca354a4c2f4a38dc768"
     end
     on_intel do
-      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.10/keelbox-linux-amd64"
-      sha256 "2ff6d24be08819ff40dd858588cdfc7c275954d3cc9852697bd703ac71860883"
+      url "https://github.com/keelbox/releases/releases/download/v0.2.0-rc.11/keelbox-linux-amd64"
+      sha256 "1b4efcf5962efe948ca8080f0322d220c8cb5fa8851d4d6bfa8c55a5b542c8e9"
     end
   end
 
